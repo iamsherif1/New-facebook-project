@@ -1,0 +1,84 @@
+body {
+    background-color: peru;
+    color: white;
+    font-family: TimesNewRoman, Times New Roman, Times, Baskerville, Georgia, serif;
+    font-size: 1.25rem;
+    margin: 0%;
+}
+.container {
+    width: 80%;
+   margin: 0 auto;
+
+}
+
+.container{
+    
+    background: url(../images/short.jpeg)  no-repeat;
+     background-color:  rgba(0, 0, 0, 0.5); 
+     background-blend-mode: darken;
+    background-size: cover;
+    height:80vh;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+header {
+background-color: peru;
+box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+color: white;
+padding-top: 15px;
+padding-bottom: 15px;
+margin-bottom: 150px;
+text-align: center;
+} /*
+.noble {
+    padding-right: 200px;
+}*/
+
+.cont {
+   float: inline-end;
+   margin-right: 15px;
+   margin-top: 10px;
+   font-size: 21px;
+}
+
+img {
+   float: left;
+   margin-left: 15px;
+}/*
+.contact {
+    text-align: end;
+    margin-right: 15px;
+}*/
+
+section {
+    float: left;
+    width: 65%;
+    margin-bottom: 150px;
+}
+aside {
+    float: right;
+    width: 35%;
+    padding-top: 50px;
+}
+footer {
+    clear: both;
+    background-color: rgb(159, 78, 235);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h3 {
+    text-align: center;
+    color: white;
+    
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: grey;
+}
+a:active{
+    color: rgb(3, 255, 171);
+}

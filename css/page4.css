@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(23, 23, 67);
+    color: white;
+    font-family: TimesNewRoman, Times New Roman, Times, Baskerville, Georgia, serif;
+    font-size: 1.25rem;
+}
+h2 {
+    text-decoration: underline;
+    margin-bottom: 100px;
+    padding-top: 30px;
+}
+section {
+    float: right;
+}
+.const {
+font-weight: bold;
+}
+.mail {
+text-decoration: underline;
+}
+p {
+    color: antiquewhite;
+    line-height: 30px;
+font-size: 21px;
+}

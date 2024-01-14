@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(32, 153, 63);
+    color: black;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+ }
+
+li {
+    text-align: center;
+    margin-left: 16px;
+}
+
+li, .logo {
+    list-style-type: none;
+    display: inline-flex;
+
+  
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+text-decoration: underline;
+color: blue;
+}
+
+nav { 
+    text-align: center;
+} 
+
+.logo {
+    color: green;
+    background-color: black;
+    text-shadow: rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+
+.pre {
+    text-align: center;
+    margin-top: 150px;
+    color: white;
+}
+
+.award {
+    text-align: center;
+    color: white;
+
+    margin-top: 180px;
+}
+
+.contribution {
+    text-align: center;
+    color: white;
+}
+
+button {
+    align-items: center;
+    background-color: black;
+    color: white;
+    margin-left: 600px;
+}
+
+.container {
+    background-image: url(../images/school\ kids.avif);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    background-attachment: fixed;
+ text-align: center;
+ color: white;
+}
+
+.pre, .award {
+    background-color: black;
+}
+
+hr {
+    border: groove;
+
+}
+
+.box {
+    border: ridge;
+    border-width: 20px;
+    
+}
+
+.levels, .we {
+    text-align: center;
+    color: white;
+}

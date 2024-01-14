@@ -1,0 +1,115 @@
+body {
+    background-color: azure;
+    color: black;
+    font-family: Calibri, Candara,Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 19px;
+margin: 0%;
+
+}
+
+header {
+    background-color: #1877f2;
+    padding: 5px;
+    margin-bottom: 100px;
+}
+
+h3 {
+    display: inline-flex;
+    color: azure;
+}
+
+.label {
+  margin-left: 630px;
+  font-size: 19px;
+}
+
+.facebook {
+    margin-left: 10px;
+/*    font-weight: bolder; */
+    font-size: 28px;
+}
+
+img {
+    width: 450px;  
+}
+
+.container {
+    width: 1190px;
+}
+
+section {
+    float: left;
+    margin-left: 60px
+}
+
+aside {
+    float: right;
+    margin-left: 50px;
+}
+
+p {
+    margin-left: 40px;
+    font-size: 25px;
+}
+
+fieldset {
+    background-color: azure;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    padding: 10px 50;
+    font-weight: 20px;
+}
+
+.main-set {
+  /*  padding-left: 30px;
+    padding-right: 30px;  */
+
+ /*   padding-left: 50px;
+    padding: 20px 0 28px;  */
+    width: 396px;
+
+    border-radius: 30px;
+}
+
+#first, #last, #email1, #passw, #confirm {
+ /*   font-size: 17px;
+    width: 210px;
+    padding: auto; */
+
+    border: 5%;
+    border-radius: 6px;
+    border-color: azure;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+}
+
+input {
+    border-color: azure;
+}
+
+fieldset:invalid~fieldset{
+    display: none;
+}
+
+button {
+  /*  width: 250px;
+    padding: 10px; */
+
+
+font-size: 21px;
+background-color: #1877f2;
+color: azure;
+border: none;
+border-radius: 3%;
+
+line-height: 48px;
+padding: 0 16px;
+width: 339px;
+}
+
+label {
+    font-weight: bolder;
+}
