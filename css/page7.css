@@ -1,0 +1,483 @@
+
+* {
+    margin: 0%;
+    padding: 0%; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 19px;
+}
+
+body {
+    background-color: black;
+    color: white;
+
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+}
+
+ul, .logo, .fa-el { 
+    display: inline-flex;
+    margin-top: 30px;
+}
+
+ul{
+    margin-top: 50px;
+    gap: 40px;
+    font-size: 22px;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 170px;
+}
+
+.logo {
+    float: inline-start;
+    margin-left: 30px;
+}
+
+nav .fa-el {
+  float: inline-end;
+  margin-right: 30px;
+  margin-top: 50px;
+  gap: 30px;
+  
+}
+
+li {
+list-style: none;
+}
+
+a {
+    color: white;
+    font-size: 22px;
+text-decoration: none;
+}
+
+
+.home a::after {
+    content: '';
+    width: 60%;
+    height: 5px;
+    background-color: yellowgreen;
+    display: flex;
+    position: relative;
+    margin-left: 10px;
+}
+
+a:hover {
+color: bisque;
+
+}
+
+a:active {
+color: aquamarine;
+
+}
+
+.container {
+    width: 1200px;
+height: 80vh;
+}
+
+section .drip {
+    float: inline-start;
+}
+
+aside .rotate {
+    float: inline-end;
+
+    animation-name: new;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+
+@keyframes new {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+h1 {
+    margin-left: 80px;
+    margin-top: 85px;
+}
+
+.shop {
+  font-size: 46px;
+  font-weight: bolder;
+background-color: rgba(255, 0, 0, 0.473);
+width: 90%;
+text-align: center;
+border: ridge 20px  limegreen;
+border-radius: 50px;
+padding: 4%;
+}
+
+h2  {
+   color: red;
+   margin-bottom: 100px;
+}
+
+.code {
+    background-image: url(../images/dresscode.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    left: 0%;
+    top: 0%;
+    width: 1180px;
+    height: 50vh;
+    margin-left: 1px;
+    margin-bottom: 150px;
+    padding: 6%;
+    align-items: center;
+   
+}
+
+h4{
+    font-size: 40px;
+margin-left: 60px;
+margin-top: 100px;
+
+}
+
+h4::after{
+    content: '';
+    width: 9%;
+    height: 7px;
+    background-color: yellowgreen;
+    display: flex;
+    position: relative;
+    margin-left: 35px;
+}
+
+
+ .firstone {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+    border: groove 10px;
+
+    background-image: url(../images/five.jpg);
+    
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+ }
+
+ .secondone {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+    border: groove 10px;
+
+    background-image: url(../images/three.jpg);
+    
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+ }
+
+ .thirdone {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+    border: groove 10px;
+
+    background-image: url(../images/suit\ top\ down1.jpg);
+    
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+ }
+
+ 
+ .fourthone {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+    border: groove 10px;
+
+    background-image: url(../images/four.jpg);
+    
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+ }
+
+ .field1, .field2, .field3, .field4 {
+    display: inline-flex;
+    margin-left: 40px;
+ }
+
+ h5 {
+    font-size: 22px;
+    color: white;
+    background-color: black;
+    font-weight: lighter;
+ }
+
+ .field5, .field6, .field7, .field8 {
+    display: inline-flex;
+    margin-left: 40px;
+ }
+
+ 
+ .fifthone {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+    border: groove 10px;
+
+    background-image: url(../images/lady1.jpg);
+    
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+ }
+
+
+
+ .sixthone {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+    border: groove 10px;
+
+    background-image: url(../images/lady2.webp);
+    
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+ }
+
+ 
+ .seventhone {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+    border: groove 10px;
+
+    background-image: url(../images/lady3.jpg);
+    
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+ }
+
+ 
+ .eighthone {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+    border: groove 10px;
+
+    background-image: url(../images/lady4.jpg);
+    
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+ }
+
+  
+
+
+
+ .ninethone {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+    border: groove 10px;
+
+    background-image: url(../images/1.jpeg);
+    
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+ }
+
+  
+ .tenthone {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+    border: groove 10px;
+
+    background-image: url(../images/4.jpg);
+    
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+ }
+
+  
+ .eleventhone {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+    border: groove 10px;
+
+    background-image: url(../images/5.webp);
+    
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+ }
+
+  
+ .twelvethone {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+    border: groove 10px;
+
+    background-image: url(../images/6.jpeg);
+    
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+ }
+
+ 
+ .field9, .field10, .field11, .field12 {
+    display: inline-flex;
+    margin-left: 40px;
+    margin-bottom: 100px;
+ }
+
+
+ .container2 {
+    background-color: limegreen;
+    width: 1330px;
+height: 80vh;
+margin-left: 6px;
+
+}
+
+.section1 {
+    float: left;
+}
+
+.aside1{
+    float: right;
+}
+
+ .trad img {
+    width: 400px;
+    margin-right: 60px;
+    margin-top: 40px;
+    border-radius: 50px;
+}
+
+ .lasth1{
+    font-size: 40px;
+    font-weight: lighter;
+   margin-bottom: 80px;
+}
+
+
+.lasth1::after {
+    content: '';
+    width: 60%;
+    height: 5px;
+    background-color: yellow;
+    display: flex;
+    position: relative;
+    margin-left: 10px;
+}
+
+.deal {
+    font-size: 24px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    margin-left: 40px;
+}
+
+footer {
+    background-color: gray;
+    height: 30vh;
+    padding: 2.5%;
+}
+
+.whatsapp, .tel, .email {
+   letter-spacing: 1px;
+   margin-top: 40px;
+   margin-left: 10px;
+}
+
+.copy {
+    text-align: center;
+}
