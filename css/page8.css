@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+  font-size: 21px;
+  width: 1000pxpx;
+  height: 200vh ;
+
+ 
+  display: grid; 
+  grid-template-areas:
+  'header header header' /*header*/
+  'nav main main' /*aside*/
+  'nav footer footer'        /*footer */
+;
+
+  grid-template-columns: 90px 6fr 1fr;
+  grid-template-rows: 90px 1fr 90px;
+}
+
+header, nav, main, footer {
+    color: #000;
+    padding: 20px;
+    border: solid 1px #cf1212;
+    
+    
+    }
+    
+    header {
+        grid-area: header;
+    }
+    
+    nav {
+        grid-area: nav;
+    }
+    
+    main {
+        grid-area: main;
+    }
+    /*
+    aside {
+        grid-area: aside;
+    }
+    */
+    footer {
+        grid-area: footer;
+    }
+
+header {
+    background-color: #ED1E27;
+}
+
+
+nav {
+    background-color: ;
+    color: #fff; 
+}
+
+
+ul, .logo-name {
+    list-style: none;
+   display: flex;
+justify-content: center;
+}
+
+ul li {
+display: block;
+position: relative;
+}
+
+ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 20px 25px;
+  color: #fff;
+}
+
+ul li ul.dropdown {
+    display: block;
+   width: 100%;
+   background-color: #ED1E27; 
+   text-align: center;
+  position: absolute;
+  z-index: 999;
+}
+
+.logo-name {
+    color: #;
+float: inline-start;
+margin-left: 15px;
+}
+
+em {
+    color: #fff;
+}
+
+.arrow {
+    font-size: 16px; 
+}
+
+ul li ul.dropdown li {
+    display: none;
+}
+
+ul li a:hover{
+
+text-decoration: underline;
+} 
+
+ul li:hover ul.dropdown li  {
+display: block;
+}
+
+
+.search-bar {
+    border: none;
+    width: fit-content;
+    text-align: center;
+    padding-right: 8px;
+margin-left: 230px;
+margin-top: 30px;
+border-radius: 50px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .3); 
+
+}
+
+input {
+    width: 600px;
+    height: 50px;
+    font-size: 21px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    text-align: center;
+}
+
+.icon {
+   cursor: pointer;
+    padding: 7px;
+    font-size: 25px;
+    border-radius: 50px;
+}
+
+.image-bar {
+    margin-top: 50px; 
+}
+
+.crossbar {
+    background-color: #ED1E27; 
+    color: #fff;
+    font-size: 23px;
+   /* border: 1px #ED1E27 solid;*/
+    padding: 15px;
+    
+}
+
+.li a{
+    background-color: #fff;
+    color: #ED1E27;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.image img {
+    width: 1211px;
+    height: 80vh;
+}
+
+.li {
+    display: inline-flex;
+    float: inline-end;
+margin-right: 17px;
+}
+
+p, .li {
+    display: inline-flex;
+}
+
+ol.drop {
+list-style: none ;
+}
+
+ .nav-font-icon i ol.drop {
+    background-color: #fff;
+    width: fit-content;
+    margin-left: 20px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .3); 
+    display: none;
+ }
+
+ .nav-font-icon i ol.drop li {
+    margin-top: 20px;
+ }
+
+ .nav-font-icon i ol.drop a {
+    text-decoration: none;
+    color: #ED1E27;
+ }
+
+ ol.drop a:hover {
+    background-color: #0000005e;
+    padding: 5px;
+ }
+
+ .nav-font-icon  {
+    background-color: #ED1E27;
+    color: #fff;
+    width: fit-content;
+    padding: 8px; 
+    border-radius: 10px;
+    font-size: 25px; 
+    cursor: pointer;
+    position:fixed;
+ }
+
+ .nav-font-icon i:hover ol.drop {
+    display: block;
+ }
+
+ .offer {
+   background-color: #ED1E27;
+   color: #fff; 
+   
+ }
+
+ h2 {
+    margin-left: 15px;
+    padding: 0px;
+ }
+
+ h2::after {
+    content: '';
+    width: 280px;
+    height: 5px;
+    left: 130px;
+    top: 865px;
+    position: absolute;
+    z-index: 11;
+    background-color: #fff;
+ }
+
+.appliances {
+    background-color: #ED1E27;
+    padding: 30px;
+    display: flex;
+
+   
+}
+
+.washing-machine, .micro, .fridge {
+    margin-left: 90px;
+}
+
+
+
+.micro{
+    background-image: url(../images/microwaves-top-banner.webp);
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    background-size: contain;
+    margin: 15px;
+}
+
+.fonts  {
+    display: inline-flex;
+    margin: 150px 40px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .6); 
+}
+
+.fonts li a{
+    margin-left: 18px;
+    color: #ED1E27;
+}
+
+li {
+    list-style: none;
+}
+
+.fonts li {
+    display: none;
+}
+
+.washing-machine:hover .fonts li {
+    display: block;
+}
+
+ .fridge:hover .fonts li {
+    display: block;
+ }
+ 
+ .micro:hover .fonts li {
+    display: block;
+}
+
+.kettle h4{
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-size: larger;
+}
+
+.discount-box {
+    width: fit-content;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.discount {
+    background-color: #ED1E27;
+    color: #fff;
+    margin-left: 15px;
+    padding: 0px 15px 0px 15px;
+    border-radius: 20px;
+}
+
+.stars {
+    display: flex;
+    margin-left: 40px;
+    font-size: 17px;
+    color: #00000073;
+}
+
+.stars li {
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.strike-amount, .amount {
+    margin-left: 80px;
+    margin-top: 10px;
+    
+}
+
+.strike-amount {
+    font-size: 18px;
+    color: #00000071;
+    margin-left: 85px;
+    margin-bottom: 5px;
+}
+
+.fridge {
+    width: fit-content;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;  
+}
+
+.main-fridge {
+    background-image: url(../images/fridge.webp);
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 250px;
+    background-position: center;
+    background-size: contain;
+}
+
+.washing-machine {
+    width: fit-content;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;  
+}
+
+.main-washing {
+    background-image: url(../images/washing\ machine.jpg);
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 250px;
+    background-position: center;
+    background-size: contain;
+}
+
+footer {
+    text-align: center;
+    background-color: #ED1E27;
+    color: #fff;
+}
